@@ -5,6 +5,13 @@ public final class Constants {
     private Constants() {
     }
 
+    // Query
+    public static final String SELECT_ALL = "SELECT * FROM";
+
+    // entities
+    public static final String EMPLOYEE = "employee";
+    public static final String COMPANY = "company";
+
     // Links
     public static final String MAIN_URL = "http://localhost:8080";
 
