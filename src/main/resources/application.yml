@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    password: admin123
+    url: jdbc:mysql://localhost:3306/companydb
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+      show-sql: true
+  devtools:
+    restart:
+      enabled: false
