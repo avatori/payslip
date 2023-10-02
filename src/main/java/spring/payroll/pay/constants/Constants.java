@@ -6,11 +6,14 @@ public final class Constants {
     }
 
     // Query
-    public static final String SELECT_ALL = "SELECT * FROM";
+    public static final String SELECT_ALL = "SELECT * FROM ";
+    public static final String CREATE_TABLE = "CREATE TABLE ";
 
-    // entities
-    public static final String EMPLOYEE = "employee";
+    // tables
+
     public static final String COMPANY = "company";
+    public static final String SALARY = "salary";
+    public static final String EMPLOYEE = "employee";
 
     // Links
     public static final String MAIN_URL = "http://localhost:8080";
